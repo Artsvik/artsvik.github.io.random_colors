@@ -1,9 +1,10 @@
-let start_btn = document.getElementById("#start_btn")
-let stop_btn = document.getElementById("#stop_btn")
-let color_div = document.getElementsByClassName("color_div")
+let start_btn = document.getElementById("start_btn")
+let stop_btn = document.getElementById("stop_btn")
+let color_div = document.getElementsByClassName("color_div")[0]
+let colorInterval = 0
 
 start_btn.addEventListener('click', () => {
-    let colorInterval = setInterval(() => {
+    colorInterval = setInterval(() => {
         let symbols = "0123456789ABCDEF"
         let color = "#";
 
@@ -13,7 +14,7 @@ start_btn.addEventListener('click', () => {
             color_div.style.background = color
 
         }
-    }, 5000)
+    }, 1000)
 })
 
 stop_btn.addEventListener('click', () => {
