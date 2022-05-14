@@ -1,0 +1,50 @@
+body {
+    padding: 200px;
+    background-image: url(./pngtree-penguin-penguin-cartoon-cartoon-cartoon-penguin-png-image_485345.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.color_div {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(159, 102, 159);
+    background-color: rgb(170, 117, 170);
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 90px;
+}
+
+#start_btn {
+    width: 70px;
+    height: 70px;
+    /* margin: 50px 0px 100px 700px; */
+    background-color: rgb(183, 128, 45);
+    border: 1px solid rgb(167, 200, 218);
+    color: rgb(110, 77, 14);
+    font-weight: bolder;
+    margin-left: 450px;
+    margin-top: 150px;
+    border-radius: 50%;
+}
+
+#start_btn:hover {
+    background-color: rgb(218, 167, 210);
+}
+
+#stop_btn {
+    width: 60px;
+    height: 60px;
+    /* margin: 50px 0px 100px 700px; */
+    background-color: rgb(218, 167, 210);
+    border: 1px solid rgb(167, 200, 218);
+    color: rgb(139, 33, 71);
+    font-weight: bolder;
+    margin-left: 533px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+#stop_btn:hover {
+    background-color: rgb(193, 48, 29);
+}
